@@ -7,7 +7,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build-only": "vite build",
     "dev": "vite --host",
-    "wrangler-dev": "wrangler pages dev --d1 SimplePollSystem=631aae6c-ace8-4d73-bc75-453abaad85fb -- vite --host",
+    "wrangler-dev": "wrangler pages dev --d1 SimplePollSystem=6be456d2-ebed-43ed-9201-4d190bd63e07 -- vite --host",
     "format": "prettier --write src/",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false"
@@ -36,6 +36,7 @@
     "sass": "^1.69.6",
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
-    "vue-tsc": "^1.8.25"
+    "vue-tsc": "^1.8.25",
+    "wrangler": "^3.39.0"
   }
 }
